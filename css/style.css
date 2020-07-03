@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+/*header start*/
+header{
+	padding:2% 0;
+	/*border: 1px solid red;*/	
+}
+.container{
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top:3px;
+	width:13%;
+	float:left;
+		/*border: 1px solid red;*/
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:70%;
+	float:right;
+}
+.menu ul{
+	float:right;	
+
+}
+.menu ul li{
+	float:left;
+	list-style:none;
+}
+.menu ul li a{
+	margin:0 50px;
+	padding: 10px 0;
+	color:#626262;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:inline-block;
+	transition: .3s ease;
+	border: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	padding-right:0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner img{
+	width:100%;
+}
+/*banner end*/
+
+/*newsletter start*/
+.newsletter{
+	padding: 70px 0;
+	background:#f0f0f0;
+	text-align:center;
+}
+h2{
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom:70px;
+	color: #333333;
+} 
+.input_wrap {
+	width:24%;
+	margin:0 38%;
+	padding-bottom:5px;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+}
+.input_mail input {
+	width:70%;
+	font-size: 14px;
+	background-color: transparent;
+	border:0;
+	float:left;
+	position:relative;
+
+}
+.icon {
+	float:right;
+	padding-right:32px; 
+}
+.icon img{
+	position:absolute;
+}
+.icon a:hover{
+opacity: 0.5;
+
+}
+.input_mail input:focus{
+	outline: 0;
+}
+/*newsletter end*/
